@@ -8,12 +8,12 @@
 # Site settings
 title:  杯末亭
 subtitle: 分享技术，品味人生
-name: 杯末亭 
-email: ityouknow@126.com
-description: 本站是杯末亭的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: ityouknow,杯末亭,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+name: 杯末亭
+email: sen.bunki@gmail.com
+description: 本站是杯末亭的笔记本
+keywords: 杯末亭,Spring,DB2,Jvm,Docker,生活故事,架构,大数据,一线,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,IT技术博客,Java,Python,
 encoding: "utf-8"
-favicon: favicon.ico 
+favicon: favicon.ico
 
 repository: vinsmoke-three/vinsmoke-three.github.io
 github_url: https://github.com/vinsmoke-three
@@ -52,41 +52,6 @@ syntax_highlighter_opts:
 paginate: 12
 paginate_path: 'page:num'
 
-# Navigation. top menu list
-menus:
-
-  -
-    href: /python.html
-    label: Python  
-    target: _self
-
-  -
-    href: /it.html
-    label: IT
-    target: _self
-
-  -
-    href: /zsxq.html
-    label: 星球
-    target: _self   
-
-  -
-    href: /life.html
-    label: 故事
-    target: _self
-
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
-
-  -
-    href: /link.html
-    label: 友链
-    target: _self
-
-
-
 # Navigation. main menu list
 navs:
 
@@ -114,7 +79,7 @@ navs:
     target: _self
 
   -
-    
+
     href: http://www.justdojava.com
     label: Java
     target: _blank
@@ -123,7 +88,7 @@ navs:
       -
         subHref: /java.html
         subLabel: Jvm 系列文章
-        
+
       -
         subHref: http://www.justdojava.com
         subLabel: Java 极客技术
@@ -145,7 +110,7 @@ labels:
 
   -
     href: /payment.html
-    label: 支付     
+    label: 支付
     target: _self
 
   -
@@ -165,7 +130,7 @@ labels:
 
   -
     href: /open-source.html
-    label: Code  
+    label: Code
     target: _blank
 
   -
@@ -229,19 +194,19 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: vinsmoke-three
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: vinsmoke-three
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+        client_id: 61fe9fa072ca33ca6a91
+        client_secret: ac576f4b0bdc17264c192731acc9a1a9588b37c4
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: vinsmoke-three
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+    clientID: 61fe9fa072ca33ca6a91
+    clientSecret: ac576f4b0bdc17264c192731acc9a1a9588b37c4
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true

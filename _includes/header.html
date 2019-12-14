@@ -1,4 +1,5 @@
 <header class="site-header">
+    <!--
     <div class="site-header-topbar">
         <div class="container">
             <div class="topbar-menu">
@@ -14,6 +15,7 @@
             </div>
         </div>
     </div>
+    -->
     <div class="container">
         <a id="site-header-brand" href="/" title="{{ site.name }}">
             <span class="octicon octicon-smiley"></span>
@@ -30,7 +32,7 @@
                 {% if nav.subnav %}
                 <ul class="submenu">
                     {% for subItem in nav.subnav %}
-                    <li><a href="{{ subItem.subHref }}" 
+                    <li><a href="{{ subItem.subHref }}"
                            target="{{ subItem.target | default: _self }}"
                      >{{ subItem.subLabel }}</a></li>
                     {% endfor %}
