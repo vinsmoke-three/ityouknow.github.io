@@ -193,14 +193,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: vinsmoke-three
-    repo: vinsmoke-three.github.io
+    repo: vinsmoke-three
     oauth:
         client_id: c97824314c504c49cbe7
         client_secret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: vinsmoke-three
-    repo: vinsmoke-three.github.io
+    repo: vinsmoke-three
     clientID: c97824314c504c49cbe7
     clientSecret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
 # 在使用其它评论组件时可点击显示 Disqus
