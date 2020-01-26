@@ -32,34 +32,34 @@ tags: [java]
  *
  */
 public class User2 {
-	int id;
-	String name;
-	String pwd;
+    int id;
+    String name;
+    String pwd;
 
-	static String company = "vinsmoke";//静态关键字
+    static String company = "vinsmoke";//静态关键字
 
-	public User2(int id,String name) {
-		this.id=id;
-		this.name=name;
-	}
+    public User2(int id,String name) {
+        this.id=id;
+        this.name=name;
+    }
 
-	public void login() {
-		printCompany();//非静态方法可以调用静态方法
-		System.out.println(company);
-		System.out.println("登录"+name);
-	}
+    public void login() {
+        printCompany();//非静态方法可以调用静态方法
+        System.out.println(company);
+        System.out.println("登录"+name);
+    }
 
-	//静态方法
-	public static void printCompany() {
-		//login();//静态方法无法调用非静态方法
-		System.out.println(company);
-	}
+    //静态方法
+    public static void printCompany() {
+        //login();//静态方法无法调用非静态方法
+        System.out.println(company);
+    }
 
-	public static void main(String[] args) {
-		User2 u = new User2(101,"vin");
-		User2.printCompany();//静态方法可以调用静态方法
-		User2.company = "zoro";//静态方法可以调用静态变量
-		User2.printCompany();//静态方法可以调用静态方法
-	}
+    public static void main(String[] args) {
+        User2 u = new User2(101,"vin");
+        User2.printCompany();//静态方法可以调用静态方法
+        User2.company = "zoro";//静态方法可以调用静态变量
+        User2.printCompany();//静态方法可以调用静态方法
+    }
 }
 ```
