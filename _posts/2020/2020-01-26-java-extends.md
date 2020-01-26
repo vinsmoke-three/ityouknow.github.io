@@ -23,7 +23,7 @@ tags: [java]
 
 5. 提高了类之间的耦合性（继承的缺点，耦合度高就会造成代码之间的联系越紧密，代码独立性越差）。
 
-## 【示例】使用extends实现继承
+**【示例】使用extends实现继承**
 ```
 public class TestExtends {
     public static void main(String[] args) {
@@ -59,7 +59,7 @@ class Student extends Person {
 
 instanceof是二元运算符，左边是对象，右边是类；当对象是右面类或子类所创建对象时，返回true；否则，返回false。比如：
 
-【示例】使用instanceof运算符进行类型判断
+**【示例】使用instanceof运算符进行类型判断**
 
 ```
 public class TestExtends {
