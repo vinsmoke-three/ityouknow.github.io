@@ -25,7 +25,7 @@ tags: [java]
 
 **【示例】staic关键字使用**
 
-```Java
+```java
 /**
  * 测试static关键字的使用
  * @author vinsmoke
