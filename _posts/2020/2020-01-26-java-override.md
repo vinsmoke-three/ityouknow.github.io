@@ -17,7 +17,7 @@ tags: [java]
 
 **【示例】方法重写**
 
-```
+```java
 public class TestOverride {
     public static void main(String[] args) {
         Vehicle v1 = new Vehicle();
@@ -50,7 +50,7 @@ Object类是所有Java类的根基类，也就意味着所有的Java对象都拥
 
 **【示例】Object类**
 
-```
+```java
 public class Person {
     ...
 }
@@ -66,7 +66,7 @@ Object类中定义有public String toString()方法，其返回值是 String 类
 
 Object类中toString方法的源码为：
 
-```
+```java
 public String toString() {
     return getClass().getName() + "@" + Integer.toHexString(hashCode());
 }
@@ -75,7 +75,7 @@ public String toString() {
 根据如上源码得知，默认会返回“类名+@+16进制的hashcode”。在打印输出或者用字符串连接对象时，会自动调用该对象的toString()方法。
 
 **【示例】toString()方法测试和重写toString()方法**
-```
+```java
 public class TestToString {
     public static void main (String[] args) {
         Person2 p = new Person2();
@@ -113,7 +113,7 @@ Object 的 equals 方法默认就是比较两个对象的hashcode，是同一个
 
 **【示例】equals方法测试和自定义类重写equals方法**
 
-```
+```java
 public class TestEquals {
     public static void main(String[] args) {
         Person4 p1 = new Person4(1001,"小明");
@@ -159,7 +159,7 @@ super是直接父类对象的引用。可以通过super来访问父类中被子�
 
 **【示例】super关键字的使用**
 
-```
+```java
 public class TestSuper {
     public static void main(String[] args) {
         new ChildClass().f();
@@ -195,7 +195,7 @@ class ChildClass extends FatherClass{
 
 **【示例】构造方法向上追溯执行测试**
 
-```
+```java
 public class TestSuper2 {
     public static void main(String[] args) {
         System.out.println("开始创建一个ChildClass对象......");
@@ -213,7 +213,7 @@ class ChildClass2 extends FatherClass2 {
     }
 }
 ```
-```
+```Java
 //执行结果
 开始创建一个ChildClass对象......
 创建FatherClass
