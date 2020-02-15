@@ -7,7 +7,7 @@
 
 # Site settings
 title:  杯末亭
-subtitle: 分享技术，品味人生
+subtitle: 为无为，事无事，味无味
 name: 杯末亭
 email: sen.bunki@gmail.com
 description: 本站是杯末亭的笔记本
@@ -74,8 +74,8 @@ navs:
         subLabel: Spring Cloud
 
   -
-    href: /spring-cloud.html
-    label: Spring Cloud
+    href: /something.html
+    label: Something
     target: _self
 
   -
@@ -103,65 +103,65 @@ navs:
 # labels. my blog key words
 labels:
 
-  -
-    href: /payment.html
-    label: 支付
-    target: _self
+#  -
+#    href: /payment.html
+#    label: 支付
+#    target: _self
 
-  -
-    href: /fastdfs.html
-    label: FastDFS
-    target: _blank
+#  -
+#    href: /fastdfs.html
+#    label: FastDFS
+#    target: _blank
 
-  -
-    href: /mongodb.html
-    label: MongoDB
-    target: _blank
+#  -
+#    href: /mongodb.html
+#    label: MongoDB
+#    target: _blank
 
-  -
-    href: /docker.html
-    label: Docker
-    target: _blank
+#  -
+#    href: /docker.html
+#    label: Docker
+#    target: _blank
 
-  -
-    href: /open-source.html
-    label: Code
-    target: _blank
+#  -
+#    href: /open-source.html
+#    label: Code
+#    target: _blank
 
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _blank
+#  -
+#    href: /gitchat.html
+#    label: Chat
+#    target: _blank
 
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
+#  -
+#    href: /geektime.html
+#    label: 极客
+#    target: _blank
 
 
 # selected articles
 classes:
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+#  -
+#    href: /life.html
+#    name: 我的故事
+#    describe: 生活就是故事，故事就是生活
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+#  -
+#    href: /arch.html
+#    name: 架构师之路
+#    describe: 一个架构师的自我修养
 
   -
     href: /java.html
     name: Java 系列文章
-    describe: Java 之根基，Java 程序员必学
+    describe: Java 之修身养性
 
 
 # ---------------- #
 #       RSS        #
 # ---------------- #
-subscribe_rss: /feed.xml
+# subscribe_rss: /feed.xml
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 6 # Number of repos to show
