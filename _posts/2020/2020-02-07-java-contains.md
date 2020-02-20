@@ -28,7 +28,7 @@ void clear() | 清除集合中的所有元素
 boolean contains(Object o) | 判断集合中是否存在指定元素
 boolean containsAll(Collection c) | 判断集合中是否包含集合c中的所有元素
 boolean isEmpty() | 判断集合是否为空
-Iterator<E>iterator() | 返回一个 Iterator 对象，用于遍历集合中的元素
+Iterator\<E\>iterator() | 返回一个 Iterator 对象，用于遍历集合中的元素
 boolean remove(Object o) | 从集合中删除一个指定元素
 boolean removeAll(Collection c) | 从集合中删除所有在集合c中出现的元素
 boolean retainAll(Collection c) | 从集合中删除集合c里不包含的元素
