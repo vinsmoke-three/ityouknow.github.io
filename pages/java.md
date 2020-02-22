@@ -2,7 +2,7 @@
 layout: page
 title: Java 学习笔记
 titlebar: java
-#subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; Java 人的精神家园。>&nbsp;&nbsp;>&nbsp;&nbsp;<a href ="http://www.justdojava.com/" target="_blank" ><font color="#EB9439">点我直达</font></a>
+subtitle: <span class="mega-octicon octicon-clippy"></span> &nbsp;&nbsp; Java 系列教程 基础
 menu: java
 css: ['blog-page.css']
 permalink: /java

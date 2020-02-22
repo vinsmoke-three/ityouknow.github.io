@@ -60,10 +60,18 @@ navs:
     label: Home
 
   -
-    href: /spring-boot.html
-    label: Spring Boot
+    href: /spring.html
+    label: Spring
     target: _self
     subnav:
+
+      -
+        subHref: /spring.html
+        subLabel: Spring
+
+      -
+        subHref: /spring-mvc.html
+        subLabel: Spring MVC
 
       -
         subHref: /spring-boot.html

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Something
-titlebar: something
-subtitle: <span class="mega-octicon octicon-tools"></span> &nbsp;&nbsp; 开发工具 软件 开源工具
-menu: something
+title: Spring MVC
+titlebar: spring-mvc
+subtitle: <span class="mega-octicon octicon-eye"></span> &nbsp;&nbsp; Spring MVC学习笔记
+menu: spring-mvc
 css: ['blog-page.css']
-permalink: /something
+permalink: /spring-mvc
 ---
 
 <div class="row">
@@ -14,7 +14,7 @@ permalink: /something
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='something' %}
+                {% if post.category=='springmvc' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
