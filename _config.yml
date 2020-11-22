@@ -190,24 +190,24 @@ skill_mobile_app_keywords: [vuejs, hyhird app]
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: disqus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
     username: vinsmoke-three
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: vinsmoke-three
-    repo: vinsmoke-three.github.io
-    oauth:
-        client_id: c97824314c504c49cbe7
-        client_secret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
+#gitment:
+#    owner: vinsmoke-three
+#    repo: vinsmoke-three.github.io
+#    oauth:
+#        client_id: c97824314c504c49cbe7
+#        client_secret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
 # https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: vinsmoke-three
-    repo: vinsmoke-three.github.io
-    clientID: c97824314c504c49cbe7
-    clientSecret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
+#gitalk:
+#    owner: vinsmoke-three
+#    repo: vinsmoke-three.github.io
+#    clientID: c97824314c504c49cbe7
+#    clientSecret: 4915c973532ba24fbc9aca83f33f1782dfb3ee00
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
